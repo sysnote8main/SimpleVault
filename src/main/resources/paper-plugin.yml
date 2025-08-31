@@ -1,0 +1,12 @@
+name: SimpleVault
+description: Bring your own vault to the world.
+version: '$version'
+api-version: '1.21.8'
+
+main: com.sysnote8.simplevault.SimpleVault
+bootstrapper: com.sysnote8.simplevault.SimpleVaultBootstrap
+
+dependencies:
+  server:
+    kunectron:
+      load: AFTER

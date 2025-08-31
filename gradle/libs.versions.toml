@@ -1,0 +1,22 @@
+[versions]
+# plugin
+kotlin = "2.2.10"
+shadow = "9.1.0"
+runPaper = "2.3.1"
+
+# library
+paperApi = "1.21.8-R0.1-SNAPSHOT"
+kunectron = "1.0.0-beta.13"
+
+[plugins]
+kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+runPaper = { id = "xyz.jpenilla.run-paper", version.ref = "runPaper" }
+
+[libraries]
+kotlinStdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8" }
+paperApi = { module = "io.papermc.paper:paper-api", version.ref = "paperApi" }
+kunectron = { module = "com.tksimeji:kunectron", version.ref = "kunectron" }
+
+[bundles]
+
