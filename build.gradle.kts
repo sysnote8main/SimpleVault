@@ -16,6 +16,9 @@ repositories {
     maven("https://repo.minebench.de/") {
         name = "minebench-repo"
     }
+    maven("https://repo.azisaba.net/repository/maven-public/") {
+        name = "azisaba-repo"
+    }
 }
 
 dependencies {
@@ -25,6 +28,7 @@ dependencies {
 
     // dependencies
     compileOnly(libs.kunectron)
+    compileOnly(libs.betterGui)
 }
 
 kotlin {

@@ -10,3 +10,5 @@ dependencies:
   server:
     kunectron:
       load: AFTER
+    BetterGUI:
+      load: AFTER

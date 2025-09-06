@@ -7,6 +7,7 @@ runPaper = "2.3.1"
 # library
 paperApi = "1.21.8-R0.1-SNAPSHOT"
 kunectron = "1.0.0-beta.13"
+betterGui = "1.0.7"
 
 [plugins]
 kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
@@ -17,6 +18,7 @@ runPaper = { id = "xyz.jpenilla.run-paper", version.ref = "runPaper" }
 kotlinStdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8" }
 paperApi = { module = "io.papermc.paper:paper-api", version.ref = "paperApi" }
 kunectron = { module = "com.tksimeji:kunectron", version.ref = "kunectron" }
+betterGui = { module = "dev.felnull:BetterGUI", version.ref = "betterGui" }
 
 [bundles]
 
